@@ -1,6 +1,6 @@
 dumpbolt
 ========
-Dumps the contents of a [Bolt database](https://github.com/boltdb/bolt).
+Print the contents of a [Bolt database](https://github.com/boltdb/bolt).
 
 Give it a database file and, optionally, a starting point, and it will print
 what's in the database.
@@ -32,6 +32,7 @@ dumpbolt -a example.db
 Print starting at the bucket named `bar/foo` inside the bucket `tridge`
 ```bash
 dumpbolt -p '^' exampledb '^tridge^bar/foo'
+```
 
 Output
 ------
