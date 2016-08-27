@@ -72,7 +72,7 @@ Options:
 	if nil != err {
 		fmt.Fprintf(
 			os.Stderr,
-			"Unable to open %v: %v",
+			"Unable to open %v: %v\n",
 			flag.Arg(0),
 			err,
 		)
